@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+#world-map {
+    max-width: 1500px;
+}
+h1 {
+    font-size: 46px;
+    font-family: 'Gochi Hand', cursive;
+}
+/*style for list box*/
+#country-name {
+    list-style-type: none;
+    column-count: 3;
+    margin: 50px;
+    padding: 50px;
+    /*border: solid red 15px;*/
+    font-size: 23px;
+    background-color: azure;
+
+
+
+}
+
+/*style for population text*/
+#country-population {
+    font-size: 15px;
+}
+/*style for flag img*/
+.country-img {
+max-width: 50px;
+   /*width: 65px;*/
+   /* height: 45px;*/
+}
+/*style h1 tag*/
+h1 {
+    font-size: 46px;
+    font-family: 'Gochi Hand', cursive;
+}
+
+/*style for region id  collars */
+#africa {
+    color: blue;
+}
+#americas {
+    color: green;
+}
+#europe {
+    color: yellow;
+}
+#asia {
+    color: red;
+}
+#oceania {
+    color: purple;
+}
+#polar {
+    color: orange;
+}
+#unknown {
+    color: black;
+}
+
